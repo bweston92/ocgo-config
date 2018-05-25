@@ -49,7 +49,7 @@ func init() {
 
 func Setup(config string) error {
 	if config == "" {
-		config := env("OCGO_EXPORTER")
+		config = env("OCGO_EXPORTER")
 		if config == "" {
 			return nil
 		}
