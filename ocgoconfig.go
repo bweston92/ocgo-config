@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"go.opencensus.io/exporter/jaeger"
-	"go.opencensus.io/exporter/stackdriver"
+	"contrib.go.opencensus.io/exporter/stackdriver"
 	"go.opencensus.io/trace"
 )
 
